@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <script src="https://kit.fontawesome.com/7968cc1663.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/master.css">
+</head>
+<body>
+    <video src="./videos/car_-_75456 (540p).mp4" autoplay loop muted></video>
+    <section class="sesion">
+        <article class="container">
+            <div class="formContainer">
+                <h1 class="titulo">Inciar sesión</h1>
+                <form action="datos.php" method="post" autocomplete="off">
+                    <div class="input">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Correo elecrónico</label>
+                    </div>
+                    <div class="input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Contraseña</label>
+                    </div>
+                    <div>
+                        <button type="submit">Ingresar</button>
+                    </div>
+                    <div class="register">
+                        <a href="#">Aun no poseo una cuenta</a>
+                    </div>
+                </form>
+            </div>
+
+        </article>
+    </section>
+
+    <script src="./js/master.js"></script>
+</body>
+</html>
